@@ -1,0 +1,5 @@
+SELECT(SELECT Salary from Employee
+      GROUP BY Salary
+      ORDER BY Salary DESC limit 1
+      offset 1) 
+      as SecondHighestSalary;
